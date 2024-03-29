@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+}
+
+form {
+    width: 30%;
+}
+
+input {
+    /* background-color: rgb(221, 255, 244); */
+    color: rgb(152, 0, 119);
+    padding: 5px;
+    border-radius: 5px;
+}

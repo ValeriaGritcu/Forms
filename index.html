@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tabele</title>
+</head>
+
+<body>
+    <h3>Crearea unui formular in pagina html</h3>
+    <form>
+        <fieldset>
+            <legend>Date personale</legend>
+            <lable>Nume</lable><br>
+            <input type="text"><br>
+            <lable>Prenume</lable><br>
+            <input type="text"><br>
+            <lable>Data nasterii</lable><br>
+            <input type="date"><br>
+            <lable>Parola</lable><br>
+            <input type="password"><br>
+            <lable>Hobby</lable><br>
+            <input type="checkbox" id="aaa">
+            <label for="aaa">Pictura</label><br>
+            <input type="checkbox" id="bbb">
+            <label for="bbb">Sport</label><br>
+            <input type="checkbox" id="ccc">
+            <label for="ccc">Dansul</label><br>
+            <input type="radio" id="g1" name="gen">
+            <label for="g1">Masculin</label>
+            <input type="radio" id="g2" name="gen">
+            <label for="g2">Femenin</label>
+            <input type="radio" id="g3" name="gen">
+            <label for="g3">Pisica</label><br>
+
+            <label>Localitatea</label><br>
+            <input list="loc" nume="loc">
+            <datalist id="loc">
+                <option value="Moseni">
+                <option value="Zaicani">
+            </datalist><br>
+
+            <label>Propuneri</label><br>
+            <textarea rows="5" cols="30" placeholder="Asteptam propunerile de activitati extrascolare"></textarea><br>
+            <input type="button" value="Accept">
+            <input type="reset"><br>
+            <label for="cars">Selectati treapta</label><br>
+            <select id="cars" name="cars">
+                <option></option>
+                <option value="volvo">Gimnaziala</option>
+                <option value="saab">Liceala</option>
+                <option value="fiat">Primara</option>
+                <option value="audi">Universitara</option><br>
+               
+            </select>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
